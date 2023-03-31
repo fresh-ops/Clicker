@@ -15,14 +15,15 @@
         android:textColor="@color/teal_200"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnClickMe"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnClickMe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="increaseCounter"
         android:text="@string/click_me"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

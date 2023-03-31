@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Clicker</string>
+    <string name="click_me">Нажми на меня</string>
 </resources>
